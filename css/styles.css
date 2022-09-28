@@ -1,0 +1,47 @@
+:root {
+  --primary-text-color: #757575;
+}
+
+.page {
+  background-color: #fff;
+  color: #757575;
+}
+.logo {
+  color: #000;
+}
+.logo-link {
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+
+/* основиний колір тексту background: #757575;*/
+/*основний колір заголовок background: #212121;*/
+/*основний колір кнопок #F5F4FA;*/
+/*колір кнопок при наведенні #2196F3*/
+
+/*site-nav*/
+
+.site-nav,
+.link {
+  color: #212121;
+}
+.site-nav,
+.link:hover,
+.site-nav,
+.link:focus {
+  color: #2196f3;
+}
+/*section-title*/
+.section-title {
+  color: #212121;
+}
+/*hero*/
+.hero {
+}
+
+/*feature*/
+.feature-list,
+.title {
+}
