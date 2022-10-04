@@ -4,6 +4,8 @@
   --accent-color: #2196f3;
   --primery-white-color: #fff;
   --primary-bg-color: #f5f4fa;
+  --primery-footer-contact: rgba(255, 255, 255, 0.6);
+  --footer-background-color: #2f303a;
 }
 
 .page {
@@ -25,6 +27,23 @@ body {
   line-height: 1.71;
 
   color: var(--primary-text-color);
+}
+
+.portfolio-list {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+
+  color: var(--primary-text-color);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  color: var(--title-text-color);
 }
 
 .logo {
@@ -54,6 +73,10 @@ body {
   color: var(--title-text-color);
 }
 
+.hero {
+  background-color: var(--footer-background-color);
+}
+
 .hero-title {
   text-align: center;
   font-weight: 900;
@@ -61,7 +84,7 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--primery-white-color);
 }
 
 .site-contacts {
@@ -105,24 +128,38 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 
-  color: var(--title-text-color);
+  color: var(--primery-white-color);
 }
 
 .footer-contacts {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 
-  color: var(--title-text-color);
+  color: var(--primery-footer-contact);
 }
 
+.footer-background {
+  background-color: var(--footer-background-color);
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  color: var(--primery-white-color);
+}
 /*button*/
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-text-color);
+
+  cursor: pointer;
 }
 
 .button.primary {
@@ -135,6 +172,12 @@ body {
 }
 
 .button.secondary {
+  width: 125px;
+  height: 38px;
+  left: 593px;
+  top: 174px;
+  border-radius: 4px;
+
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
 }
@@ -143,3 +186,10 @@ body {
 
 /*font-family: 'Raleway', sans-serif;
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">*/
+
+.test {
+  color: red;
+  background-color: pink;
+}
+
+/*portfolio*/
