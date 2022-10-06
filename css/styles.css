@@ -7,11 +7,18 @@
   --primery-footer-contact: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
 }
+/* основиний колір тексту background: #757575;*/
+/*основний колір заголовок background: #212121;*/
+/*жругорядний колір фону #f5f5f5;*/
+/*основний колір кнопок #F5F4FA;*/
+/*колір кнопок при наведенні #2196F3;*/
+/*text-decoration: none;*/
+/*site-nav*/
 
-.page {
+header {
   background-color: var(--primery-white-color);
-  color: var(--primary-text-color);
 }
+
 body {
   font-family: Roboto, sans-serif;
 
@@ -24,7 +31,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  /* identical to box height */
 
   color: var(--title-text-color);
 }
@@ -34,11 +40,25 @@ body {
 
   color: #2196f3;
 }
-.list {
+
+.li-color {
+  background-color: var(--primery-white-color);
+}
+
+.team-list {
   list-style: none;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.18;
+
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 
   color: var(--primary-text-color);
 }
@@ -60,17 +80,10 @@ body {
   color: var(--title-text-color);
 }
 
-/* основиний колір тексту background: #757575;*/
-/*основний колір заголовок background: #212121;*/
-/*основний колір кнопок #F5F4FA;*/
-/*колір кнопок при наведенні #2196F3;*/
-/*text-decoration: none;*/
-/*site-nav*/
-
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
 
   color: var(--title-text-color);
@@ -88,6 +101,10 @@ body {
   text-transform: uppercase;
 
   color: var(--primery-white-color);
+}
+
+.section-team {
+  background-color: var(--primary-bg-color);
 }
 
 .site-contacts {
@@ -122,15 +139,24 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-/*section-title*/
+
 .section-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 18;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
 
   color: var(--title-text-color);
 }
 
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  color: var(--title-text-color);
+}
+/*footer*/
 address {
   font-style: normal;
 }
@@ -163,7 +189,6 @@ address {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  /* identical to box height */
 
   color: var(--primery-white-color);
 }
@@ -223,11 +248,7 @@ address {
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
 }
-
-/*шрифти*/
-
-/*font-family: 'Raleway', sans-serif;
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">*/
+/*test*/
 
 .test {
   color: red;
